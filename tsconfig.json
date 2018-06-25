@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "pretty": true,
+    "sourceMap": true,
+    "declaration": true,
+    "declarationDir": "types/",
+    "outDir": "output/",
+    "lib": ["dom", "es2015", "es2015.symbol", "es2015.reflect"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "files" : [
+    "source/index.tsx"
+  ]
+}
